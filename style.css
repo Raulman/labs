@@ -1,0 +1,172 @@
+.body {
+    background-image: url(Labs_bckgnd.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: black;
+}
+
+.global {
+    margin: auto;
+    margin-top: -20px;
+    padding: 10px;
+    width: 1200px;
+    background: rgba(200, 200, 200, 0.2);
+    
+}
+
+.header {
+    text-shadow: black 2px 1px 3px;
+    width: 100%;
+    color: yellow;
+    font-size: 14pt;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.2ex;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.header h1 {
+    opacity: 65%;
+}
+
+.info {
+    width: auto;
+    letter-spacing: 0ex;
+    text-align: left;
+    margin-top: 40px;  
+}
+
+.menu {
+    width: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 0%;
+}
+
+.menu div {
+    height: 30px;
+    width: 60px;
+    margin: 20px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 8px;
+    float: left;
+    background: rgba(0, 0, 0, 0.15);   
+    border: 1px solid transparent;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    position: relative;
+    cursor:pointer;
+    user-select: none;
+}
+
+.goMain {
+    height: 30px;
+    width: 240px;
+    margin: 24px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: 8px;
+    float: left;
+    background: rgba(0, 0, 0, 0.15);   
+    border: 1px solid transparent;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    position: relative;
+    cursor:pointer;
+    user-select: none;
+}
+
+.navigation div {
+    height: auto;
+    width: auto;
+    margin: 15px;
+    font-family: 'Play', sans-serif;
+    font-weight: bold;
+    font-size: 14pt;
+    text-align: center;
+    padding-top: auto;
+    background: rgba(255, 255, 255, 0.05);   
+    border: 1px solid transparent;
+    transition-property:all;
+    transition-duration: 0.3s;
+    transition-timing-function: linear;
+    position: relative;
+    cursor:pointer;
+    user-select: none;
+}
+
+.menu div:after{
+    content: "";
+    display: block;
+    width:100%;
+    height: 2px;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-bottom: rgba(255, 255, 0, 0) 2px solid;
+    position:absolute;
+    top:105%;
+    transition-duration: 0.3s;
+    transition-property:all;
+    transition-timing-function: linear;
+}
+
+.menu div:hover, .navigation div:hover, .goMain:hover{
+    text-shadow: yellow 0px 0px 20px;
+    background: rgba(0, 0, 0, 0.4);
+    border:rgba(255, 255, 0, 0.3) 1px solid;
+}
+
+.menu div:hover:after{
+    height: 5px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: rgba(255, 255, 0, 0.3) 4px solid;    
+}
+
+#selected, .navigation div:active, .goMain:active {
+    text-shadow: yellow 0px 0px 3px;
+    background: rgba(0, 0, 0, 0.7);
+    border:rgba(255, 255, 0, 1) 1px solid;
+    transition-duration: 0.5s;
+}
+
+#selected:after {
+    height: 6px;
+    top: 112%;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-bottom: rgba(255, 255, 0, 1) 5px solid;
+}
+
+.labNav {
+    float:left;
+    width: 25%;
+    height: 600px;
+    border: 0px;
+    background: rgba(200, 200, 200, 0);
+    margin: auto;
+ }
+
+.content {
+    width: 74%;
+    height: 600px;
+    border: rgba(0, 0, 0, 0.6) 1px solid;
+    border-radius: 5px;
+    background: rgba(200, 200, 200, 0.7);
+    margin: auto;
+}

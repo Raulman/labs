@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title> Glance </title>
+    </head>
+    <body vlink = 'black' alink = 'black'>
+        <header>
+
+            <!-- Заголовок і логотип -->
+            <a href = 'index.html'>
+                <div> 
+                    <h1> Glance </h1>
+                    <img src = 'Lable.png' width = '80px'/>
+                </div>
+            </a>
+
+            <!-- Меню -->
+            <nav>
+                <a> Home </a> |
+                <a> Booking </a> |
+                <a> Itinerary </a> |
+                <a> Gallery </a> |
+                <a href = 'logic.html'> About us</a>
+            </nav>
+            <p> <i> <b> be a particle in the Universe </b> </i> </p>
+        </header>
+
+        <!-- Опис -->
+        <div>
+            <p> Неймовірна подорож серед команди досліників на середньогабаритному льодоколі навколо Антарктиди.
+                Судно здійснює періодичні рейси для підтримування наукових місій. Команда вчених бажає поділитися враженнями з усіма, 
+                хто цікавиться безкрайніми льодовими просторами нашої планети.
+                Для гостей доступні різні каюти в залежності від комфортних умов:
+                <ol type = 'A'>
+                    <li>
+                         Без власного санвузла
+                        <ul> 
+                            <li> Одномісні з ілюмінатором </li>
+                            <li> Двомісні з ілюмінатором </li>
+                            <li> Двокімнатні (до 4 людей) з видом вбік та на корму корабля </li>
+                        </ul>
+                    </li>
+                    <li>
+                        Із санвузлом в каюті
+                       <ul> 
+                           <li> Двомісні з ілюмінатором </li>
+                           <li> Двокімнатні (до 4 людей) з панорамними видом вбік </li>
+                           <li> Двокімнатні (до 4 людей) з виглядом на ніс корабля </li>
+                       </ul>
+                   </li>
+                   <li>
+                        Двокімнатний люкс з оглядовими ілюмінаторами вбік, вперед і в небо
+                   </li>
+                </ol>
+            </p>
+        </div>
+        <img src = 'Bgnd.jpg' width = '50%'/>
+        <br/>
+        <br/>
+        <!-- Таблиця -->
+        <table border ='1' align = 'center' width = '50%'>
+            <tr> 
+                <td colspan = '2' align = 'center'> 
+                    <h3> Місця посадки та висадки </h3>
+                </td>
+            </tr>
+            <tr>
+                <td> Порт Мельбурн, Австралія <br/>
+                    Термінал Spirit Station Pier <br/>
+                    <a href = 'https://goo.gl/maps/CYjcMZmTVc5t79L28' target = '_blank'> -37.84219273044301, 144.9331576541955 </a>
+                </td>
+                <td>
+                    Прибуття 21:30 03 січня 2023 <br/>
+                    Відправлення 11:30 05 січня 2023
+                </td>
+            </tr>
+            <tr>
+                <td> Кейптаун, Victoria & Alfred Waterfront, Півд. Африка <br/>
+                    Термінал Waterfront Silo <br/>
+                    <a href = 'https://goo.gl/maps/CmaYGWDqgoEVeyGR6' target = '_blank'> -33.909236615147094, 18.42352502859077 </a>
+                </td>
+                <td>
+                    Прибуття 10:30 20 січня 2023 <br/>
+                    Відправлення 16:00 21 січня 2023
+                </td>
+            </tr>
+            <tr>
+                <td> Пунта-Аренас, Чілі <br/>
+                    Причал в центрі міста <br/>
+                    <a href = 'https://goo.gl/maps/5zcGJEaEgfGDdrrC7' target = '_blank'> -53.16742817605837, -70.9085897128637 </a>
+                </td>
+                <td>
+                    Прибуття 08:00 07 лютого 2023
+                </td>
+            </tr>
+        </table>
+        
+
+        <!-- Форма -->
+        <div align = 'center'>
+            <h3> Пишіть нам ваші запитання </h3>
+            <form name = 'feedback' action = '#' method = 'post'>
+                <label> Ваша електронна скринька: <br/> </label>
+                <input type = 'email' name = 'email' size = '30em' required/> <br/>
+                <label> Ваше ім'я: <br/> </label>
+                <input type = 'text' name = 'name' size = '30em'> <br/> <br/>
+                <textarea name = 'message' cols = '80em' rows='10' maxlength = '600' placeholder = 'Текст повідомлення...' required></textarea> <br/>
+                <label> Я людина </label>
+                <input type = 'checkbox' name = 'human' required /> <br/>
+                <input type = 'submit' name = 'send' value = 'Надіслати' />
+            </form>
+        </div>
+    </body>
+</html>
