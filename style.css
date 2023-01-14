@@ -63,7 +63,7 @@ a:active {
     font-size: 14pt;
     text-align: center;
     padding-top: 8px;
-    background: rgba(255, 255, 255, 0.3);   
+    background: rgba(255, 255, 255, 0.2);   
     border: 1px solid transparent;
     transition-property:all;
     transition-duration: 0.3s;
@@ -90,7 +90,7 @@ a:active {
     text-align: center;
     padding-top: 8px;
     float: left;
-    background: rgba(0, 0, 0, 0.15);   
+    background: rgba(255, 255, 255, 0.2);   
     border: 1px solid transparent;
     transition-property:all;
     transition-duration: 0.3s;
