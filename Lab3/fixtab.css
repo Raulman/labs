@@ -1,0 +1,40 @@
+table {
+    width:100%;
+    border-spacing: 20px 0px;
+}
+
+table div {
+    background-color: whitesmoke;
+    width: 200px;
+    height: 40px;
+    margin:10px 40px;
+    float:left;
+}
+
+.header {
+    background-color:gold;
+    height:60px;
+}
+
+.left {
+    background-color:royalblue;
+    height: 600px;
+}
+
+.midleft {
+    background-color: firebrick;
+    
+}
+
+.midright {
+    background-color: whitesmoke;
+}
+
+.right {
+    background-color: firebrick;
+}
+
+.footer {
+    background-color:gold;
+    height:60px;
+}

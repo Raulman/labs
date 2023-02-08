@@ -1,0 +1,38 @@
+body {
+    width:965px;
+    margin: auto;
+}
+.header {
+    width:965px;
+    background-color: royalblue;
+    border: 1px solid black;
+}
+.content {
+    width: 967px;
+}
+.left {
+    width:260px;
+    height: 460px;
+    background-color: gold;
+    border: 1px solid black;
+    float: left;
+}
+.middle {
+    width:440px;
+    height: 460px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    float:left;
+}
+.right {
+    width:260px;
+    height: 460px;
+    background-color: gold;
+    border: 2px solid black;
+    float:left;
+}
+.footer {
+    width:965px;
+    background-color:royalblue;
+    border: 1px solid black;
+}

@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <style>
+            body {
+                font-size: 16pt;
+                text-align: justify;
+            }
+            img {
+                max-width: 100%;
+            }
+            h3 {
+                margin-top: 100px;
+                text-align: center;
+            }
+            h2, h4 {
+                margin:10px;
+                text-align: center;
+            }
+        </style>
+    </head>
+    <body>
+        <h2 id="begin"> ЛАБОРАТОРНА РОБОТА №3 </h2>
+        <p> <b>Тема:</b> ВЕРСТКА HTML-ДОКУМЕНТУ. БЛОКОВА ВЕРСТКА. ВЕРСТКА
+            ЗАСОБАМИ CSS та FLEXBOX.<br/>
+        </p>
+        <b>Мета:</b> 
+            <ul>
+                <li>
+                    придбати практичні навички роботи верстки сторінок засобами CSS, верстки на
+                    основі плаваючих елементів, з’ясувати переваги та недоліки типів макетів веб-
+                    сторінок;
+                </li>
+                <li>
+                    придбати практичні навички роботи верстки сторінок засобами CSS та FLEXBOX.
+                </li>
+            </ul>
+        
+        <h3 id="task1"> ЗАВДАННЯ 1. МАКЕТ ВЛАСНОГО САЙТУ </h3>
+        <p>Посилання на власний застосунок:</p>
+        <a href = 'https://raulman.github.io/Glance/'> https://raulman.github.io/Glance/ </a>
+        <p> Власний веб-застосунок виконується <b> блоковою гумовою версткою </b>. Ширина батьківського контейнеру &ltbody&gt визначена 
+            відсотком від ширини екрану браузера. Основні контейнери-нащадки також мають визначення ширини у відносному значенні стосовно
+            предка.
+        </p>
+        <p> Однак, для сприймання структури та контенту сторінки при малих розмірах вікна браузера, значення ширини основних контейнерів
+            обмежені на мінімальному рівні.
+        </p>
+        <p> Ширина деяких невеликих блоків задана абсолютною величиною в пікселах. На знімку нижче це ширина об'єктів класу ".header div". 
+            Але ці об'єкти не впливають на загальну поведінку верстки сайту.
+        </p>
+        <img src = 'img/Task1.png'>
+
+        <p> Верстка власного сайту заснована на <b>базових понцепціях:</b>
+            <ul>
+                <li>
+                    Для глобальних блоків - плаваючі елементи. Блоки слідують один за одним у визначеному порядку зверху вниз.
+                    Розташування наступного блоку ліворуч за попередній визначається властивістю "float: left;"<br>
+                    <img src = 'Float.png'>
+                </li>
+                <li>
+                    Для дочірніх блоків (меню навігації, логотип та ін.) - плаваючі елементи та маніпулювання відступами. 
+                    Так, наприклад, збільшена відстань між кнопками меню навігації, а також підкоректована позиція логотипа в своєму 
+                    батьківському контейнері.<br>
+                    <img src = 'Margin.png'>
+                </li>
+            </ul>
+        </p>
+
+        <h3 id="screenshot"> ГОЛОВНА СТОРІНКА САЙТУ</h3>
+        <img src = 'img/Screenshot1.png' style="margin:auto; display:block;"> <br>
+        <img src = 'img/Screenshot2.png' style="margin:auto; display:block;">
+
+        <h3 id="codehtml"> КОД HTML </h3>
+        <img src = 'img/Screenshothtml1.png' style="margin:auto; display:block;"> <br>
+        <img src = 'img/Screenshothtml2.png' style="margin:auto; display:block;"> <br>
+        <img src = 'img/Screenshothtml3.png' style="margin:auto; display:block;"> <br>
+        <img src = 'img/Screenshothtml4.png' style="margin:auto; display:block;"> <br>
+
+        <h3 id="codecss"> КОД CSS </h3>
+        <img src = 'img/Screenshotcss1.png' style="margin:auto; display:block;"> <br>
+        <img src = 'img/Screenshotcss2.png' style="margin:auto; display:block;"> <br>
+        <img src = 'img/Screenshotcss3.png' style="margin:auto; display:block;"> <br>
+
+        <h3 id="task3html"> ЗАВДАННЯ 3. HTML-КОД</h3>
+        <img src = 'task3_img/Flexboxhtml1.png' style="margin:auto; display:block;"> 
+        <img src = 'task3_img/Flexboxhtml2.png' style="margin:auto; display:block;"> <br> <br>
+
+        <h3 id="task3css"> ЗАВДАННЯ 3. CSS-КОД</h3>
+        <img src = 'task3_img/Flexboxcss1.png' style="margin:auto; display:block;"> 
+        <img src = 'task3_img/Flexboxcss2.png' style="margin:auto; display:block;">
+        <img src = 'task3_img/Flexboxcss3.png' style="margin:auto; display:block;">

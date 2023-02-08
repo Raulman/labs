@@ -1,0 +1,110 @@
+body {
+    width: 80%;
+    min-width: 400px;
+    margin: auto;
+}
+h1 {
+    margin: -2px 6px;
+    padding: 0px;
+}
+.header {
+    width: 100%;
+    height: 120px;
+    font-family: 'Montserat', sans-serif;
+    font-weight: 700;
+    color:navy;
+    background-color: lightblue;
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+.header div { 
+    float: left;    
+    font-size: 12pt;
+    width: 140px;
+    margin: 0px;
+}
+.header div img {
+    margin: -20px 0px -80px 0px;
+    z-index: 1;
+}
+.header nav {
+    /* властивості flexbox */
+    display: flex;
+    flex-wrap: wrap;
+
+    font-size: 14pt;
+    margin-left: 50%;
+    align-content: center;
+}
+.header nav a {
+    margin: 2px 16px;
+    position: relative;
+    transition: 0.5s;
+    text-decoration: none;
+}
+.header nav a:after {
+    content: "";
+    display:none;
+    width: 100%;
+    height: 3px;
+    position:absolute;
+    background-color: navy;
+    opacity: 0;
+    transition-property: all;
+    transition-delay: 0.5s;
+}
+.header nav a:hover {
+    color:white;
+}
+.header nav a:hover:after {
+    display: block;
+    opacity: 1;
+}
+.content {
+    margin-top:0px;
+    padding: 5px;
+    background-color: rgba(132, 180, 225, 0.3);
+    font-family: 'Play', sans-serif;
+    font-size:16pt;
+    text-align:justify;
+}
+.list {
+    max-width: 48%;
+    min-width: 400px;
+    float:left;
+    padding-left:30px;
+}
+.list li{
+    font-weight: bold;
+}
+.list ul li{
+    font-weight: normal;
+    font-style: italic;
+}
+#photo {
+    max-width: 48%;
+    margin:5px;
+    float: left;
+}
+table {
+    width: 60%;
+    margin:auto;
+    border-collapse:collapse;
+}
+table tr td{
+    border: 2px solid whitesmoke;
+    
+}
+div[align = "center"] {
+    border: 2px solid whitesmoke;
+    margin: 40px;
+    padding: 10px;
+
+}
+form *{
+    background-color: lightblue;
+}
+textarea {
+    width: 100%;
+    max-width: 600px;
+}
