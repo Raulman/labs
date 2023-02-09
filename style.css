@@ -53,6 +53,7 @@ a:active {
     float: right;
     width: 140px;
     height: auto;
+    margin-left: 20px;
 }
 
 .photo img {
