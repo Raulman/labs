@@ -42,19 +42,22 @@ a:active {
 }
 
 .info {
-    width: auto;
+    float: left;
+    width: 70%;
     letter-spacing: 0ex;
     text-align: left;
     margin-top: 40px;  
 }
 
 .photo {
+    float: right;
     width: 140px;
     height: auto;
 }
 
 .photo img {
     width:100%;
+    border:rgba(0, 0, 0, 0.5) 2px solid;
 }
 
 .menu {
