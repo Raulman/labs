@@ -48,6 +48,15 @@ a:active {
     margin-top: 40px;  
 }
 
+.photo {
+    width: 140px;
+    height: auto;
+}
+
+.photo img {
+    width:100%;
+}
+
 .menu {
     width: 100%;
     height: 76px;
